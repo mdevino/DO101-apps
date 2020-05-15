@@ -8,6 +8,7 @@ Disclaimer: Everything written below this line has been added by me and might no
 
 * Each unit in OpenShift is named a "pod".
 * You can make use of Webhooks in OpenShift to automatically trigger fields.
+* You can make use of secrets and ConfigMaps to set environment data.
 
 ## OpenShift CLI
 
@@ -15,6 +16,7 @@ Disclaimer: Everything written below this line has been added by me and might no
 oc login - Self explanatory.
 
 oc project <project name> - Change the current project.
+oc new-project <name> - Create a new project.
 
 oc new-app - Create a new app on the current project. This will not create a route by default.
 
@@ -23,7 +25,6 @@ oc expose svc/<app> - Create a route for a new app.
 oc get svc - Get services running in the current project.
 oc get routes - Get routes in the current project.
 oc get pods - Get pods in current project.
-oc logs -f <pod> - Interactively show logs of the given pod.
 ```
 
 ### OpenShift vs. Kubernetes
