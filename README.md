@@ -23,6 +23,7 @@ oc expose svc/<app> - Create a route for a new app.
 oc get svc - Get services running in the current project.
 oc get routes - Get routes in the current project.
 oc get pods - Get pods in current project.
+oc logs -f <pod> - Interactively show logs of the given pod.
 ```
 
 ### OpenShift vs. Kubernetes
