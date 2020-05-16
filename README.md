@@ -25,6 +25,8 @@ oc expose svc/<app> - Create a route for a new app.
 oc get svc - Get services running in the current project.
 oc get routes - Get routes in the current project.
 oc get pods - Get pods in current project.
+
+oc autoscale - Set autoscale parameters, such as min and max number of pods, as well as a cpu threshold to automatically create pods.
 ```
 
 ### OpenShift vs. Kubernetes
